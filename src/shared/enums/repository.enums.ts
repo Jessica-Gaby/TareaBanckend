@@ -1,4 +1,4 @@
-export enum DataSourceEnum {
-    PG_DATA_SOURCE = 'PG_DATA_SOURCE',
-  }
-  
+export enum RepositoryEnum  {
+  AUTHOR_REPOSITORY = 'AUTHOR_REPOSITORY',
+  SONG_REPOSITORY = 'SONG_REPOSITORY',
+}

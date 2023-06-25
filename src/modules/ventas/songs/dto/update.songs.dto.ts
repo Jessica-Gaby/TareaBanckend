@@ -1,8 +1,8 @@
 import { PartialType } from "@nestjs/swagger";
 import { IsOptional, IsString } from "class-validator";
-import { CreatesongsDto } from "./create.songs.dto";
+import { CreateSongsDto } from "./create.songs.dto";
 
-export class UpdateSongsDto extends PartialType(CreatesongsDto){
+export class UpdateSongsDto extends PartialType(CreateSongsDto){
     @IsOptional()
     @IsString()
     title: string;

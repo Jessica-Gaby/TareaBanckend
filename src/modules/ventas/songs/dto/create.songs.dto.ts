@@ -1,1 +1,1 @@
-export class CreatesongsDto {}
+export class CreateSongsDto {}
